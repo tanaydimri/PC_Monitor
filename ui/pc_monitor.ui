@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PcMonitorUi</class>
+ <widget class="QWidget" name="PcMonitorUi">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>520</width>
+    <height>301</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>PC Monitor</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>Total CPU USAGE</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QProgressBar" name="progressBar_cpu_usage"/>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>Total RAM USAGE</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QProgressBar" name="progressBar_ram_usage"/>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QListView" name="listView_individual_logical_cpu"/>
+     </item>
+    </layout>
+   </item>
+  </layout>
+  <zorder>progressBar_cpu_usage</zorder>
+  <zorder>progressBar_ram_usage</zorder>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>progressBar_ram_usage</zorder>
+  <zorder>treeView_individual_logical_cpu</zorder>
+  <zorder>label_2</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
