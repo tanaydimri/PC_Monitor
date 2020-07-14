@@ -1,0 +1,17 @@
+Requirements:-
+    - python 2.7.16
+    - pyside
+    - Qt 4.8.7
+    - psutil 5.7.0
+
+
+INSTRUCTIONS:-
+
+To convert the UI file to a qt py file
+    - pyside-uic.exe -x <ui_file> -o <output_py_file>
+
+
+Although any version of pyinstaller should work fine, But the one I have used is 3.1.1
+To compile the project into a single executable file:-
+    - pyinstaller.exe --onefile -w src\pc_monitor.py
+
