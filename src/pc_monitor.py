@@ -2,7 +2,7 @@
 quthor = Tanay Dimri
 created_on = 14-07-2020
 
-This Application was developed as a part of the test for Red Chillies Vfx. Studios.
+This Application was developed as a part of the test during an interview.
 """
 # importing builtin modules
 import sys
